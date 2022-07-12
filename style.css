@@ -1,0 +1,35 @@
+.bg-navy-blue {
+    background-color: #114B5F;
+}
+
+.bg-green {
+    background-color: #88D498;
+}
+
+.bg-dark-green {
+    background-color: #1A936F;
+}
+
+.bg-beige {
+    background-color: #F3E9D2;
+}
+
+.text-navy-blue {
+    color: #114B5F;
+}
+
+.text-light-green {
+    color: #C6DABF;
+}
+
+.text-dark-purple {
+    color: #4B1D3F;
+}
+
+.text-dark-green {
+    color: #1A936F;
+}
+
+.text-green {
+    color: #88D498;
+}
