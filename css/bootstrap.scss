@@ -1,0 +1,22 @@
+$primary: #114B5F;
+$secondary: #4B1D3F;
+$warning: #F3E9D2;
+$success: #1A936F;
+$info: #88D498;
+$danger: #C6DABF;
+
+/*$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "warning": $warning,
+  "success": $success,
+  "danger": $danger,
+  "info": $info,
+  "light": $light,
+  "muted": $muted,
+  "dark": $dark,
+);
+
+$grid-gutter-width: 30px !default; */
+
+@import "node_modules/bootstrap/scss/bootstrap";
