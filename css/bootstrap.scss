@@ -5,6 +5,8 @@ $success: #1A936F;
 $info: #88D498;
 $danger: #C6DABF;
 
+
+
 /*$theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
@@ -20,3 +22,4 @@ $danger: #C6DABF;
 $grid-gutter-width: 30px !default; */
 
 @import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons";

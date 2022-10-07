@@ -17,54 +17,70 @@
       gtag('config', 'G-WF07QPDN1R');
     </script>
     <title>About</title>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"
+  ></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light navbar-light">
+  <nav class="navbar navbar-expand-lg bg-light navbar-light shadow">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="image_src/temp_logo_with_text.svg" width="150" alt="">
+      <a class="navbar-brand" href="index.html">
+        <img src="image_src/temp_logo_with_text.svg" width="150" alt="" />
       </a>
-        <button 
-        class="navbar-toggler" 
-        type="button" 
-        data-bs-toggle="collapse" 
-        data-bs-target='#navigation'>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navigation">
-        <ul class="navbar-nav ms-auto text-light">
+        <ul class="navbar-nav nav ms-auto text-light">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">HOME</a>
+            <a href="index.html" class="nav-link fw-bold">Home
+            </a>
+            
           </li>
           <li class="nav-item">
-            <a href="about.html" class="nav-link active">ABOUT</a>
+            <a href="about.html" class="nav-link fw-bold active text-success ">About</a>
           </li>
-          <li class="nav-item">
-            <a href="learn.html" class="nav-link">LEARN</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">CONTACT</a>
+          <li class="dropdown nav-item">
+            <a class="dropdown-toggle nav-link fw-bold" data-toggle="dropdown" href="learn.html"
+              >Learn <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu shadow-lg rounded border-0 bg-light px-2 fw-bold">
+              <li><a href="programs.html" class="nav-link">Programs</a></li>
+              <li><a href="mentors.html" class="nav-link">Mentors</a></li>
+            </ul>
           </li>
         </ul>
       </div>
-      </div>
-    </nav>
+    </div>
+  </nav>
 
         <section class="bg-success text-dark p-2 p-lg-5 text-center text-lg-start">
-          <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
                 
-              <div class="p-5">
-                <h1 class="text-dark display-3">OUR MISSION.</h1>
+              <div class="p-5 m-5 m-lg-0 rounded shadow bg-light bg-opacity-75">
+                <h2><i class="bi bi-code text-success"></i></h2>
+                <h1 class="text-dark display-5 fw-bold">OUR MISSION.</h1>
                 <p>
                   Despite an increase in available computer science (CS) jobs, new graduates with bachelor's or master's degrees in CS have reported having difficulty breaking into the industry and finding work. <br><br>Companies are looking for employees with sufficient technical experience and higher-level education. This presents a severe disadvantage to those who lack the resources to pay for higher education or access experience-building opportunities.
                   <br><br>
                   OpenBox seeks to bridge this gap by empowering traditionally underrepresented or underprivileged middle school students across the world to explore advanced computer science and mathematics topics early on. 
               </p>
+              <h2><i class="bi bi-code-slash text-success"></i></h2>
               </div>
-              <img class="img-fluid w-100 d-none d-lg-block" src="image_src/nobackground_temp_logo 1.png" alt="">
+              <img class="img-fluid w-100 px-5 d-none d-lg-block" src="image_src/nobackground_temp_logo 1.png" alt="">
             </div>
-          </div>
         </section>
 
 
@@ -72,14 +88,14 @@
       <div class="container">
         <h1 class="text-center">Meet Our Team.</h1>
             <div class="row my-4 text-center">
-              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2">
+              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2 rounded shadow">
                 <img src="image_src/Melody.jpg" alt="" class="rounded-circle w-50">
                 <h2>Melody Lee</h2>
                 <p class="text-start">
                   Hello! My name is Melody Lee, and I direct the project, working with all of the teams our OpenBox program. I enjoy algorithms and dabble occasionally in quantum computing, but on my own time, I enjoy wandering around nature trails and running. If you have any questions or concerns, you are more than welcome to reach out and let me know!
                 </p>
               </div> 
-              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2">
+              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2 rounded shadow">
                 <img src="image_src/Helen.jpg" alt="" class="rounded-circle w-50">
                 <h2>Helen Wu</h2>
                 <p class="text-start">
@@ -88,27 +104,27 @@
               </div> 
             </div> 
             <div class="row my-4 text-center">
-              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2">
+              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2 rounded shadow">
                 <img src="image_src/Raghvi.jpg" alt="" class="rounded-circle w-50">
                 <h2>Raghvi Sharma</h2>
                 <p class="text-start">
                   Hi! My name is Raghvi, from the Bay Area in California! I am currently a junior for 2022-2023 and am part of the Community Team here at OpenBox Programs, so feel free to reach out to me!
                 </p>
               </div> 
-              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2">
+              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2 rounded shadow">
                 <img src="image_src/Medha.jpg" alt="" class="rounded-circle w-50">
                 <h2>Medha Rudraraju</h2>
                 <p class="text-start">
                   Hello, I'm Medha Rudraraju and I am on the marketing team here at Openbox programs. My favorite subject is biology and I love to listen to music, watch TV, and read books in my free time. I will always be here if you have any concerns!              </div>
             </div> 
             <div class="row my-4 text-center">
-              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2">
+              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2 rounded shadow">
                 <img src="image_src/derra.jpg" alt="" class="rounded-circle w-50">
                 <h2>Dhairya Agarwal</h2>
                 <p class="text-start">
                   Hey Everyone! My name is Dhairya Agarwal, and I am on the Logistical Planning team of the OpenBox program. I am committed to sharing my knowledge with others and raising awareness of various world crises. I hope to make a significant impact in the OpenBox program and help students learn something new! Thanks!                </p>
               </div>
-              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2">
+              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2 rounded shadow">
                 <img src="image_src/Vibhu.jpg" alt="" class="rounded-circle w-50">
                 <h2>Vibhu Gomatam</h2>
                 <p class="text-start">
@@ -116,12 +132,12 @@
               </div> 
             </div>
             <div class="row my-4 text-center">
-              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2">
+              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2 rounded shadow">
                 <img src="image_src/zahed.jpg" alt="" class="rounded-circle w-50">
                 <h2>Zahed</h2>
                 <p class="text-start">
                   I'm Zahed, a member of the logistics team here at OpenBox Programs! I'll be working to create opportunities for students through organizing workshops, programs, and more. I'm looking forward to helping equip confident and skilled students for the future!              </div> 
-              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2">
+              <div class="col-lg py-lg-4 px-lg-5 mx-lg-2 my-lg-0 my-2 rounded shadow">
                 <img src="image_src/Mayah.png" alt="" class="rounded-circle w-50">
                 <h2>Mayah</h2>
                 <p class="text-start">
@@ -130,11 +146,23 @@
             </div> 
         </div>
     </section>
-    <section class="bg-light text-dark p-lg-5 text-center">
-      <div class="container">
-        <p>CONTACT OUR TEAM AT OPENBOX.PROGRAMS@GMAIL.COM</p>
+    <footer>
+      <div class="w-100 d-flex flex-wrap justify-content-between align-items-center bg-primary py-3">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-light">© 2022 OpenBox Programs</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mx-5">
+      
+          <li class="ms-3"><a class="text-muted" href="#"><i class="bi-discord link-light px-3" style="font-size: 1.5rem;"></i></li>
+          <li class="ms-3"><a class="text-muted" href="#"><i class="bi-facebook link-light px-3" style="font-size: 1.5rem;"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><i class="bi-envelope-fill link-light px-3" style="font-size: 1.5rem;"></i></a></li>
+        </ul>
       </div>
-    </section>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
